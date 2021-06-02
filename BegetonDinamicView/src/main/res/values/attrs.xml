@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BegetonTextInput">
+        <attr name="inputHint" format="string"/>
+        <attr name="descriptionText" format="string"/>
+        <attr name="errorText" format="string"/>
+        <attr name="inputTextColor" format="color"/>
+        <attr name="descriptionTextColor" format="color"/>
+        <attr name="defaultBoxColor" format="color"/>
+        <attr name="focusedBoxColor" format="color"/>
+        <attr name="errorColor" format="color"/>
+        <attr name="defaultBoxLineWidth" format="dimension"/>
+        <attr name="focusedBoxLineWidth" format="dimension"/>
+        <attr name="errorBoxLineWidth" format="dimension"/>
+        <attr name="boxCornerRadius" format="dimension"/>
+        <attr name="inputMaxLineCount" format="integer"/>
+        <attr name="textIndicatorBackgroundColor" format="color"/>
+        <attr name="icon" format="reference"/>
+        <attr name="errorIcon" format="reference"/>
+    </declare-styleable>
+</resources>
