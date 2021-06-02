@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="become_author_toolbar_title">Стать экспертом</string>
+    <string name="become_author_toolbar_header">Укажите, пожалуйста, Ваши телефон или email по которым с Вами может связяться наш менеджер.</string>
+    <string name="become_author_name_input_hint">Как вас зовут</string>
+    <string name="become_author_name_input_error">Введите имя</string>
+    <string name="become_author_phone_input_hint">Телефон</string>
+    <string name="become_author_phone_input_error">Введите телефон</string>
+    <string name="become_author_email_input_hint">E-mail</string>
+    <string name="become_author_email_input_error">Введите email</string>
+    <string name="become_author_input_action">Отправить</string>
+    <string name="become_author_input_success">Ссылка для восстановления пароля отправлена на Вашу почту</string>
+</resources>

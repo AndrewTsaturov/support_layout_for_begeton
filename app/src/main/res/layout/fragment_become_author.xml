@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/become_author_form_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/MyToolbarStyle"
+        app:navigationIcon="@drawable/ic_arrow_back_white"
+        app:title="@string/become_author_toolbar_title" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/become_author_form_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="48dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/become_author_toolbar_header"
+                    android:textColor="@color/ref_black"
+                    android:textSize="16sp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:visibility="visible" />
+
+                <com.begeton.begetondinamicview.BegetonTextInput
+                    android:id="@+id/become_author_input_name"
+                    style="@style/BegetonTextInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginEnd="16dp"
+                    app:icon="@drawable/ic_xmark"
+                    app:inputHint="@string/become_author_name_input_hint"
+                    app:errorText="@string/become_author_name_input_error"/>
+
+                <com.begeton.begetondinamicview.BegetonTextInput
+                    android:id="@+id/become_author_input_phone"
+                    style="@style/BegetonTextInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginEnd="16dp"
+                    app:icon="@drawable/ic_xmark"
+                    app:inputHint="@string/become_author_phone_input_hint"
+                    app:errorText="@string/become_author_phone_input_error"/>
+
+                <com.begeton.begetondinamicview.BegetonTextInput
+                    android:id="@+id/become_author_input_email"
+                    style="@style/BegetonTextInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginEnd="16dp"
+                    app:icon="@drawable/ic_xmark"
+                    app:inputHint="@string/become_author_email_input_hint"
+                    app:errorText="@string/become_author_email_input_error"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/become_author_action"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/become_author_input_action"
+                    app:cornerRadius="18dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="56dp"
+                    android:layout_marginEnd="56dp"
+                    />
+
+            </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/password_restore_form_loading"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            style="@style/progressBarBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/ref_green"
+            android:indeterminateTintMode="src_atop"
+            android:theme="@style/progressBarBlue"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,10 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#0D9D7F</color>
+    <color name="colorPrimaryAlpha">#990D9D7F</color>
+    <color name="colorPrimaryDark">#0A7D65</color>
+    <color name="colorAccent">#303F9F</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="ref_black">#DE000000</color>
+    <color name="ref_black_body_new">#BD121212</color>
+    <color name="text_work_time">#de121212</color>
+    <color name="ref_black_half">#80000000</color>
+    <color name="ref_black_quoter">#80000000</color>
+    <color name="ref_black_body">#BD282F36</color>
+    <color name="ref_black_light">#80282F36</color>
+    <color name="ref_blue_grey">#B48E9CAB</color>
+    <color name="text_grey">#bd121212</color>
+    <color name="black">#000000</color>
+    <color name="top_person_color">#f7f7f7</color>
+
+    <color name="ref_grey">#F3F3F3</color>
+    <color name="ref_green">#0D9D7F</color>
+    <color name="ref_white">#FFFFFF</color>
+    <color name="ref_white_87">#deffffff</color>
+    <color name="ref_white_light">#B3FFFFFF</color>
+    <color name="ref_white_fade">#4DFFFFFF</color>
+    <color name="ref_red_ui">#de1212</color>
+
+    <color name="ref_black_trans">#808E9CAB</color>
+    <color name="ref_red_trans">#80de1212</color>
+    <color name="ref_green_trans">#800D9D7F</color>
+    <color name="ref_yellow">#f7b500</color>
+
+    <color name="main_page_city_back">#B3000000</color>
+
+
+    <color name="colorItemGridTextDefault">#000000</color>
+    <color name="colorItemGridTextAccent">#FF4081</color>
+
+    <color name="leftMenuIconsActive">#6abf69</color>
+
+    <color name="leftMenuTextBlocked">#B9B9B9</color>
+
+
+    <color name="grid_item_text_color_fourth_default">@android:color/darker_gray</color>
+
+    <color name="back_default">#E8E8E8</color>
+
+    <color name="light_rad">#FAF3F3</color>
+
+    <color name="border_color">#3046a84f</color>
+
+    <color name="scope_tree_2">#95bfdc</color>
+    <color name="scope_tree_3">#8E9CAB</color>
+
+    <color name="colorBottomNavigationAccent">#FF4081</color>
+    <color name="colorBottomNavigationActiveColored">#FFFFFF</color>
+    <color name="colorBottomNavigationDisable">#3A000000</color>
+    <color name="colorBottomNavigationInactive">#747474</color>
+    <color name="colorBottomNavigationInactiveColored">#50FFFFFF</color>
+    <color name="colorBottomNavigationNotification">#F63D2B</color>
+    <color name="colorBottomNavigationPrimary">#3F51B5</color>
+    <color name="colorBottomNavigationPrimaryDark">#303F9F</color>
+    <color name="colorBottomNavigationSelectedBackground">#17000000</color>
+    <color name="colorDescriptionText">#bd121212</color>
+    <color name="colorFatDivider">#1F000000</color>
+
+
+    <color name="mtrl_textinput_default_box_stroke_color">#fff</color>
+
+    <color name="catalog_divider_gray">#4a3c3c43</color>
+
+    <color name="color_cart">#fff485</color>
+    <color name="color_announcements">#adf6b9</color>
+    <color name="color_job">#dcadf6</color>
+    <color name="color_companies">#ddf1ff</color>
+    <color name="color_persons">#fff0da</color>
+    <color name="color_product_hot">#e4fff7</color>
+    <color name="color_art_begeton">#eef0f0</color>
+
+    <color name="color_home_text_body">#bd121212</color>
+    <color name="color_home_bg_hr_top">#fafafa</color>
+
+    <color name="account_background">#f8f8f8</color>
+
+    <color name="sign_up_type_separator">#6F515151</color>
 </resources>
