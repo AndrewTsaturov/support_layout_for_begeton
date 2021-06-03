@@ -1,0 +1,8 @@
+<resources>
+    <string name="short_link_toolbar_title">Короткая ссылка</string>
+
+    <string name="short_link_title">Короткая ссылка</string>
+    <string name="short_link_hint">Begeton.com/</string>
+    <string name="short_link_header">Текущая ссылка на Ваш аккаунт</string>
+    <string name="short_link_description">Допускается использование латинского алфавита и цифр.</string>
+</resources>
