@@ -1,0 +1,8 @@
+<resources>
+    <string name="all_social_networks_toolbar_title">Социальные сети</string>
+
+    <string name="edit_social_network_item_toolbar_title">Добавление ссылки</string>
+    <string name="edit_social_network_item_hint">Ссылка на Ваш аккаунт</string>
+    <string name="edit_social_network_item_description">После добавления ссылка будет отображаться на Вашей странице профиля.</string>
+    <string name="edit_social_network_item_button">Введите email</string>
+</resources>
