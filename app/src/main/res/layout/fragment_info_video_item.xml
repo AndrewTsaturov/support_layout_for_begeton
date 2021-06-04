@@ -12,7 +12,7 @@
         android:layout_height="?attr/actionBarSize"
         android:theme="@style/MyToolbarStyle"
         app:navigationIcon="@drawable/ic_arrow_back_white"
-        app:title="@string/videos_item_toolbar_title">
+        app:title="@string/all_videos_toolbar_title">
 
             <ImageView
                 android:layout_width="24dp"
