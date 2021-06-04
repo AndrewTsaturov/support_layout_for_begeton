@@ -1,7 +1,8 @@
 <resources>
-    <string name="another_platforms_toolbar_title">Мы на других платфор</string>
+    <string name="all_videos_toolbar_title">Видео</string>
 
-    <string name="another_platforms_item_toolbar_title">Редактирование ссылки</string>
-    <string name="another_platforms_item_hint">Ссылка на Ваш профиль</string>
-    <string name="another_platforms_item_description">После добавления, ссылка будет отображаться на странице профиля.</string>
+
+    <string name="all_videos_search_hint">Поиск</string>
+
+    <string name="videos_item_toolbar_title">Видео</string>
 </resources>
