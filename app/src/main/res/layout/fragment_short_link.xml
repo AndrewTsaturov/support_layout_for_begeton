@@ -28,7 +28,7 @@
         tools:text="@string/short_link_header" />
 
     <TextView
-        android:id="@+id/short_link_link"
+        android:id="@+id/short_link_text_link"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -80,9 +80,8 @@
         style="@style/BegetonTextInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginHorizontal="16dp"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="16dp"
         app:icon="@drawable/ic_xmark"
         app:inputHint="@string/short_link_hint" />
 

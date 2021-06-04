@@ -7,7 +7,7 @@
     android:orientation="vertical">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/become_author_form_toolbar"
+        android:id="@+id/edit_edit_social_network_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_marginBottom="64dp"
@@ -15,9 +15,8 @@
         app:navigationIcon="@drawable/ic_arrow_back_white"
         app:title="@string/edit_social_networks_item_toolbar_title" />
 
-
     <ImageView
-        android:id="@+id/social_network_item_logo"
+        android:id="@+id/edit_edit_social_network_item_logo"
         android:layout_width="144dp"
         android:layout_height="144dp"
         android:layout_gravity="center"
@@ -25,7 +24,7 @@
         tools:src="@drawable/ic_xmark" />
 
     <TextView
-        android:id="@+id/social_network_item_name"
+        android:id="@+id/edit_social_network_item_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -35,18 +34,17 @@
         tools:text="@string/text_placeholder_for_tools" />
 
     <com.begeton.begetondinamicview.BegetonTextInput
-        android:id="@+id/social_network_item_input_link"
+        android:id="@+id/edit_social_network_item_input_link"
         style="@style/BegetonTextInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginHorizontal="16dp"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="16dp"
         app:icon="@drawable/ic_xmark"
         app:inputHint="@string/edit_social_networks_item_hint" />
 
     <TextView
-        android:id="@+id/social_network_item_description"
+        android:id="@+id/edit_social_network_item_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="32dp"
@@ -55,7 +53,7 @@
 
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/social_network_item_positive_button"
+        android:id="@+id/edit_social_network_item_positive_button"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginHorizontal="16dp"
@@ -64,7 +62,7 @@
         app:cornerRadius="18dp" />
 
     <TextView
-        android:id="@+id/social_network_item_negative_button"
+        android:id="@+id/edit_social_network_item_negative_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
