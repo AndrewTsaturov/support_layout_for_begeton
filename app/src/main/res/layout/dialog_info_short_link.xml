@@ -8,41 +8,38 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/social_network_info_title"
+        android:id="@+id/confirm_delete_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:fontFamily="@font/roboto_medium"
-        android:text="@string/dialog_social_network_title"
+        android:fontFamily="@font/roboto"
+        android:text="@string/short_link_title"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintStart_toEndOf="@id/video_preview"
         app:layout_constraintTop_toTopOf="@id/video_preview" />
 
     <TextView
-        android:id="@+id/social_network_info_description"
+        android:id="@+id/confirm_delete_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:fontFamily="@font/roboto"
-        android:letterSpacing="0.1"
-        android:text="@string/dialog_social_network_description"
+        android:layout_gravity="start"
+        android:text="@string/dialog_short_link_info_description"
         android:textColor="@color/black"
         android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@id/video_preview"
         app:layout_constraintTop_toTopOf="@id/video_preview" />
 
     <TextView
-        android:id="@+id/social_network_info_negative_button"
+        android:id="@+id/confirm_delete_negative_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="8dp"
-        android:fontFamily="@font/roboto_medium"
-        android:text="@string/button_action_cancel"
+        android:layout_margin="16dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/button_action_close"
         android:textAllCaps="true"
         android:textColor="@color/colorPrimary"
         android:textSize="14sp" />
