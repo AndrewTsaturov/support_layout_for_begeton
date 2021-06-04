@@ -5,11 +5,11 @@
     <string name="button_action_add">Добавить</string>
     <string name="button_action_save">Сохранить</string>
     <string name="button_action_cancel">Отменить</string>
+    <string name="button_action_close">Закрыть</string>
     <string name="button_action_delete">Удалить</string>
     <string name="button_action_publish">Опубликовать</string>
     <string name="button_action_add_video">Добавить видео</string>
     <string name="button_action_clear_search">Сбросить поиск</string>
-
 
     <string name="text_placeholder_for_tools">Some text</string>
 </resources>
