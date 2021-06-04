@@ -14,4 +14,6 @@
     <string name="edit_video_item_hint_you_tube_link">Ссылка на видео (YouTube)*</string>
     <string name="edit_video_item_hint_name">Название видео*</string>
     <string name="edit_video_item_hint_description">Описание видео</string>
+    <string name="edit_video_item_description">Название и описание загрузятся автоматически.</string>
+
 </resources>
