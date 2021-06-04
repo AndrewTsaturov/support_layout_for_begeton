@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="dialog_video_delete_title">Удалить видео?</string>
+    <string name="dialog_link_delete_title">Удалить ссылку?</string>
+
+    <string name="dialog_short_link_delete_title">Удалить ссылку?</string>
+    <string name="dialog_short_link_delete_description">Будет установлена базовая ссылка.</string>
+
+
+    <string name="dialog_social_network_info_title">Социальные сети</string>
+    <string name="dialog_social_network_info_description">Добавляйте ссылки на Ваши профили в социальных сетях, чтобы о Вас смогли больше узнать.</string>
+
+    <string name="dialog_messengers_info_title">Мессенджеры</string>
+    <string name="dialog_messengers_info_description">Добавляйте ссылки на Ваши мессенджеры, чтобы с Вами было легче начать диалог.</string>
+
+    <string name="dialog_short_link_info_title">Короткая ссылка</string>
+    <string name="dialog_short_link_info_description">Добавьте короткую ссылку, чтобы было удобнее делиться ссылкой на Ваш аккаунт в BEGETON./nСсылку можно изменять 1 раз в 30 дней.</string>
+
+    <string name="dialog_another_platforms_info_title">Мы на других платформах</string>
+    <string name="dialog_another_platforms_info_description">Добавляйте ссылки на Ваши аккаунты на других платформах, чтобы о Вас смогли больше узнать.</string>
+
+    <string name="dialog_video_info_title">Мои видео</string>
+    <string name="dialog_video_info_description">Размещайте видео о Ваших товарах и приемуществах компании.</string>
+</resources>

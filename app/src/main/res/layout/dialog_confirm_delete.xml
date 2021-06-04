@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_white_rounded"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/confirm_delete_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="@string/dialog_confirm_delete_title"
+        app:layout_constraintStart_toEndOf="@id/video_preview"
+        app:layout_constraintTop_toTopOf="@id/video_preview" />
+
+    <TextView
+        android:id="@+id/confirm_delete_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="16dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/dialog_confirm_delete_description"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@id/video_preview"
+        app:layout_constraintTop_toTopOf="@id/video_preview" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/confirm_delete_positive_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/button_action_delete"
+        app:cornerRadius="18dp" />
+
+    <TextView
+        android:id="@+id/confirm_delete_negative_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/button_action_cancel"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp" />
+</LinearLayout>
