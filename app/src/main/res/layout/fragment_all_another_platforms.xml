@@ -13,7 +13,7 @@
         android:layout_marginBottom="16dp"
         android:theme="@style/MyToolbarStyle"
         app:navigationIcon="@drawable/ic_arrow_back_white"
-        app:title="@string/another_platforms_toolbar_title" />
+        app:title="@string/all_another_platforms_toolbar_title" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/another_platform_recycler"

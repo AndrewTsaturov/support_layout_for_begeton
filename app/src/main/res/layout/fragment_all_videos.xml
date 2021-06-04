@@ -31,7 +31,7 @@
             android:backgroundTint="@android:color/transparent"
             android:drawableStart="@drawable/ic_search"
             android:drawablePadding="8dp"
-            android:hint="@string/videos_search_hint"
+            android:hint="@string/all_videos_search_hint"
             android:paddingHorizontal="12dp" />
 
         <ImageView
@@ -82,7 +82,7 @@
             android:layout_marginHorizontal="16dp"
             android:layout_marginTop="24dp"
             android:fontFamily="@font/roboto_medium"
-            android:text="@string/videos_empty_videos_placeholder"
+            android:text="@string/all_videos_empty_my_videos_placeholder"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="20sp" />
@@ -94,7 +94,7 @@
             android:layout_height="60dp"
             android:layout_marginHorizontal="16dp"
             android:layout_marginTop="32dp"
-            android:text="@string/videos_button_positive"
+            android:text="@string/all_videos_text_button_positive"
             app:cornerRadius="18dp" />
 
         <TextView
@@ -104,7 +104,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="24dp"
             android:fontFamily="@font/roboto_medium"
-            android:text="@string/videos_button_negative"
+            android:text="@string/all_videos_text_button_negative"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="@color/ref_green"
@@ -134,7 +134,7 @@
             android:layout_marginHorizontal="16dp"
             android:layout_marginTop="24dp"
             android:fontFamily="@font/roboto_medium"
-            android:text="@string/videos_empty_videos_placeholder"
+            android:text="@string/all_videos_empty_search_placeholder"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="20sp" />
@@ -146,7 +146,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="44dp"
             android:fontFamily="@font/roboto_medium"
-            android:text="@string/videos_button_negative"
+            android:text="@string/all_videos_text_button_negative"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="@color/ref_green"
