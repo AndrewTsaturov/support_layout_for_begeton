@@ -94,21 +94,8 @@
             android:layout_height="60dp"
             android:layout_marginHorizontal="16dp"
             android:layout_marginTop="32dp"
-            android:text="@string/all_videos_text_button_positive"
+            android:text="@string/button_action_add_video"
             app:cornerRadius="18dp" />
-
-        <TextView
-            android:id="@+id/empty_content_item_negative_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="24dp"
-            android:fontFamily="@font/roboto_medium"
-            android:text="@string/all_videos_text_button_negative"
-            android:textAlignment="center"
-            android:textAllCaps="true"
-            android:textColor="@color/ref_green"
-            android:textSize="14sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -146,7 +133,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="44dp"
             android:fontFamily="@font/roboto_medium"
-            android:text="@string/all_videos_text_button_negative"
+            android:text="@string/button_action_clear_search"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="@color/ref_green"
