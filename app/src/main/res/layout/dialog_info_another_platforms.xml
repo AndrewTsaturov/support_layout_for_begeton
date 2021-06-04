@@ -8,7 +8,7 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/confirm_delete_title"
+        android:id="@+id/info_another_platforms_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="@id/video_preview" />
 
     <TextView
-        android:id="@+id/confirm_delete_description"
+        android:id="@+id/info_another_platforms_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
@@ -35,7 +35,7 @@
         app:layout_constraintTop_toTopOf="@id/video_preview" />
 
     <TextView
-        android:id="@+id/confirm_delete_negative_button"
+        android:id="@+id/info_another_platforms_negative_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
