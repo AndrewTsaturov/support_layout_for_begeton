@@ -8,7 +8,7 @@
     android:padding="24dp">
 
     <ImageView
-        android:id="@+id/item_list_image_icon"
+        android:id="@+id/messenger_image_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_xmark"
@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/item_list_text_description"
+        android:id="@+id/messenger_text_description"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -24,8 +24,8 @@
         android:textSize="16sp"
         app:drawableEndCompat="@drawable/ic_item_list_navigation_right"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/item_list_image_icon"
-        app:layout_constraintTop_toTopOf="@id/item_list_image_icon"
+        app:layout_constraintStart_toEndOf="@id/messenger_image_icon"
+        app:layout_constraintTop_toTopOf="@id/messenger_image_icon"
         tools:text="@tools:sample/lorem" />
 
     <ImageView
@@ -34,8 +34,7 @@
         android:layout_marginTop="16dp"
         android:scaleType="fitXY"
         android:src="@drawable/ic_recycler_item_separator"
-        app:layout_constraintEnd_toEndOf="@id/item_list_text_description"
-        app:layout_constraintStart_toStartOf="@id/item_list_text_description"
-        app:layout_constraintTop_toBottomOf="@id/item_list_text_description" />
-
+        app:layout_constraintEnd_toEndOf="@id/messenger_text_description"
+        app:layout_constraintStart_toStartOf="@id/messenger_text_description"
+        app:layout_constraintTop_toBottomOf="@id/messenger_text_description" />
 </androidx.constraintlayout.widget.ConstraintLayout>

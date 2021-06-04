@@ -21,5 +21,5 @@
         android:layout_height="match_parent"
         android:layout_marginHorizontal="16dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:listitem="@layout/item_list_another_platforms" />
+        tools:listitem="@layout/item_list_another_platform" />
 </LinearLayout>

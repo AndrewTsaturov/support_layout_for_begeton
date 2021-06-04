@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/social_network_image_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_xmark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/social_network_text_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textSize="16sp"
+        app:drawableEndCompat="@drawable/ic_item_list_navigation_right"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/social_network_image_icon"
+        app:layout_constraintTop_toTopOf="@id/social_network_image_icon"
+        tools:text="@tools:sample/lorem" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_recycler_item_separator"
+        app:layout_constraintEnd_toEndOf="@id/social_network_text_description"
+        app:layout_constraintStart_toStartOf="@id/social_network_text_description"
+        app:layout_constraintTop_toBottomOf="@id/social_network_text_description" />
+</androidx.constraintlayout.widget.ConstraintLayout>
