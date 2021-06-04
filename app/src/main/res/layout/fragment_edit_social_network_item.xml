@@ -13,7 +13,7 @@
         android:layout_marginBottom="64dp"
         android:theme="@style/MyToolbarStyle"
         app:navigationIcon="@drawable/ic_arrow_back_white"
-        app:title="@string/edit_social_network_item_toolbar_title" />
+        app:title="@string/edit_social_networks_item_toolbar_title" />
 
 
     <ImageView
@@ -43,7 +43,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         app:icon="@drawable/ic_xmark"
-        app:inputHint="@string/edit_social_network_item_hint" />
+        app:inputHint="@string/edit_social_networks_item_hint" />
 
     <TextView
         android:id="@+id/social_network_item_description"
@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="32dp"
         android:layout_marginTop="8dp"
-        android:text="@string/edit_social_network_item_description" />
+        android:text="@string/edit_social_networks_item_description" />
 
 
     <com.google.android.material.button.MaterialButton

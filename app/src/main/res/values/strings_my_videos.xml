@@ -1,8 +1,17 @@
 <resources>
     <string name="all_videos_toolbar_title">Видео</string>
-
-
     <string name="all_videos_search_hint">Поиск</string>
+    <string name="all_videos_empty_my_videos_placeholder">У Вас ещё не опубликовано ни одного видео.</string>
+    <string name="all_videos_empty_search_placeholder">Ничего не найдено…</string>
 
-    <string name="videos_item_toolbar_title">Видео</string>
+    <string name="all_videos_text_button_positive">Добавить видео</string>
+    <string name="all_videos_text_button_negative">Сбросить поиск</string>
+
+
+    <string name="info_videos_item_toolbar_title">Видео</string>
+
+    <string name="edit_video_item_toolbar_title">Редактирование</string>
+    <string name="edit_video_item_hint_you_tube_link">Ссылка на видео (YouTube)*</string>
+    <string name="edit_video_item_hint_name">Название видео*</string>
+    <string name="edit_video_item_hint_description">Описание видео</string>
 </resources>
