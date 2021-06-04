@@ -7,28 +7,28 @@
     android:orientation="vertical">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/edit_messenger_item_toolbar"
+        android:id="@+id/info_videos_item_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:theme="@style/MyToolbarStyle"
         app:navigationIcon="@drawable/ic_arrow_back_white"
         app:title="@string/all_videos_toolbar_title">
 
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:src="@drawable/ic_action_share_white" />
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_action_share_white" />
 
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:foregroundGravity="bottom"
-                android:src="@drawable/ic_action_edit_white" />
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:foregroundGravity="bottom"
+            android:src="@drawable/ic_action_edit_white" />
     </androidx.appcompat.widget.Toolbar>
 
 
     <ImageView
-        android:id="@+id/edit_messenger_item_logo"
+        android:id="@+id/info_videos_item_logo"
         android:layout_width="match_parent"
         android:layout_height="144dp"
         android:layout_gravity="center"
@@ -40,7 +40,7 @@
 
 
     <TextView
-        android:id="@+id/edit_video_item_name"
+        android:id="@+id/info_videos_item_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -51,7 +51,7 @@
         tools:text="@string/text_placeholder_for_tools" />
 
     <TextView
-        android:id="@+id/edit_video_item_description"
+        android:id="@+id/info_videos_item_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -61,8 +61,8 @@
         tools:text="@string/text_placeholder_for_tools" />
 
     <TextView
-        android:id="@+id/edit_video_item_date"
-        android:layout_width="wrap_content"
+        android:id="@+id/info_videos_item_date"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:layout_weight="2"

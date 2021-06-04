@@ -63,6 +63,6 @@
         android:text="@string/button_action_delete"
         android:textAlignment="center"
         android:textAllCaps="true"
-        android:textColor="@color/ref_green"
+        android:textColor="@color/ref_red_ui"
         android:textSize="14sp" />
 </LinearLayout>
