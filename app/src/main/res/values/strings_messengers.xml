@@ -1,8 +1,8 @@
 <resources>
     <string name="all_messengers_toolbar_title">Мессенджеры</string>
 
-    <string name="edit_messenger_item_toolbar_title">Добавление ссылки</string>
-    <string name="edit_messenger_item_hint">Номер телефона или ссылку</string>
-    <string name="edit_messenger_item_description">Введите номер телефона в формате: код страны, код оператора, номер телефона. Или укажите полную ссылку на группу.</string>
-    <string name="edit_messenger_item_button">Введите email</string>
+    <string name="edit_messengers_item_toolbar_title">Добавление ссылки</string>
+    <string name="edit_messengers_item_hint">Номер телефона или ссылку</string>
+    <string name="edit_messengers_item_description">Введите номер телефона в формате: код страны, код оператора, номер телефона. Или укажите полную ссылку на группу.</string>
+    <string name="edit_messengers_item_button">Введите email</string>
 </resources>

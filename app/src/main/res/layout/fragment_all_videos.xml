@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/all_videos_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/MyToolbarStyle"
+        app:navigationIcon="@drawable/ic_arrow_back_white"
+        app:title="@string/all_videos_toolbar_title" />
+
+
+    <FrameLayout
+        android:id="@+id/all_videos_compound_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="24dp"
+        android:background="@drawable/ic_search_background"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/compound_search_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:drawableStart="@drawable/ic_search"
+            android:drawablePadding="8dp"
+            android:hint="@string/videos_search_hint"
+            android:paddingHorizontal="12dp" />
+
+        <ImageView
+            android:id="@+id/compound_search_icon_clear"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="end|center"
+            android:padding="4dp"
+            android:src="@drawable/ic_xmark" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/search_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_recycler_item_separator" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/all_videos_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="32dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_list_video"
+        tools:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/all_videos_linear_empty_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/empty_content_image"
+            android:layout_width="242dp"
+            android:layout_height="242dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/ic_action_share" />
+
+        <TextView
+            android:id="@+id/empty_content_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/videos_empty_videos_placeholder"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/empty_content_item_positive_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/videos_button_positive"
+            app:cornerRadius="18dp" />
+
+        <TextView
+            android:id="@+id/empty_content_item_negative_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/videos_button_negative"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/ref_green"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/all_videos_linear_empty_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/empty_search_image"
+            android:layout_width="242dp"
+            android:layout_height="242dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/ic_action_share" />
+
+        <TextView
+            android:id="@+id/empty_search_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/videos_empty_videos_placeholder"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/empty_search_negative_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="44dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/videos_button_negative"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/ref_green"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>
