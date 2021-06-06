@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="link_add_success">Ссылка на %s добавлена.</string>
+    <string name="link_change_success">Ссылка на %s изменена.</string>
+    <string name="link_delete_success">Ссылка на %s удалена.</string>
+
+    <string name="link_change_failed">Ошибка. Проверьте правильность заполнения поля.</string>
+
+    <string name="short_link_save_success">Короткая ссылка сохранена.</string>
+    <string name="short_link_copy_success">Короткая ссылка скопирована.</string>
+    <string name="short_link_delete_success">Ссылка удалена. Установлена базовая ссылка на Ваш аккаунт.</string>
+
+    <string name="short_link_change_failed">Ошибка. Ссылка уже используется другим пользователем.</string>
+
+    <string name="video_link_add_success">Видео добавлено.</string>
+    <string name="video_link_change_success">Изменения сохранены.</string>
+    <string name="video_link_delete_success">Видео удалено.</string>
+
+    <string name="link_save_failed">Ошибка. Проверьте правильность ссылки.</string>
+</resources>
